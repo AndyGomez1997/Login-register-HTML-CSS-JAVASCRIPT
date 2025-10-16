@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-login-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyGomez1997/Login-register-HTML-CSS-JAVASCRIPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndyGomez1997/Login-register-HTML-CSS-JAVASCRIPT/issues"
+  },
+  "homepage": "https://github.com/AndyGomez1997/Login-register-HTML-CSS-JAVASCRIPT#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
