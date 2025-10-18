@@ -3,35 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iniciar sesion</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="login.js"></script>
+    <script src="login.js" defer></script>
   </head>
   <body>
     <main>
       <div class="form-container">
-        <h1>Iniciar sesion</h1>
-        <p>Ingresa tus credenciales para ingresar al area de administracion</p>
+        <h1>Iniciar sesión</h1>
+        <p>Ingresá tus credenciales para acceder al área de administración.</p>
         <form id="login-form">
-          <label for="">User</label>
+          <label for="user" class="sr-only">User</label>
           <input
             type="text"
             name="user"
             id="user"
             placeholder="Nombre de usuario"
           />
-          <label for="">Password</label>
+          <label for="password" class="sr-only">Password</label>
           <input
-            type="text"
-            name="Password"
-            id="Password"
-            placeholder="Su contrase;a"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
           />
-          <button type="submit">Iniciar sesion</button>
+          <button type="submit">Iniciar sesión</button>
+          <p class="error escondido">Error al iniciar sesión</p>
         </form>
         <p>
-          Todavia no tienes una cuenta? -
-          <a href="/register">Registrate ahora</a>
+          ¿Todavía no tenés una cuenta? - <a href="/register">Registrate</a>
         </p>
       </div>
     </main>

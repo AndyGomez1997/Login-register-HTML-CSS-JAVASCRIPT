@@ -7,5 +7,40 @@
     <link rel="stylesheet" href="style.css" />
     <script src="register.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="form-container">
+        <h1>Crea tu cuenta</h1>
+        <p>Crea tu cuenta para ingresar al area de administracion</p>
+        <form id="register-form">
+          <label for="user" class="sr-only">User</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Nombre de usuario"
+          /><label for="email" class="sr-only">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo electronico"
+          />
+          <label for="password" class="sr-only">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+          />
+          <button type="submit">Registrarse</button>
+          <p class="error escondido">Error al Registrarse</p>
+        </form>
+        <p>
+          Ya tienes una cuenta? -
+          <a href="/">Iniciar sesion</a>
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
